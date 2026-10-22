@@ -1,0 +1,28 @@
+{
+  "name": "task-9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "watch": "nodemon ./src/app.js",
+    "seed": "node ./src/scripts/seed.js",
+    "admin": "node ./src/scripts/createAdmin.js",
+    "test": "node ./src/scripts/testAll.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.1",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.2",
+    "morgan": "^1.12.1",
+    "nodemon": "^3.1.14"
+  }
+}
